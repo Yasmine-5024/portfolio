@@ -2,20 +2,14 @@
 
 import { portfolioData } from "@/data/portfolio";
 import { SectionReveal } from "./SectionReveal";
-import { Tilt } from "react-tilt";
+import { Tilt } from "./Tilt";
 import { Coffee, Cat, Film } from "lucide-react";
 import { motion } from "framer-motion";
 
 const defaultTiltOptions = {
-    reverse: false,
     max: 15,
-    perspective: 1000,
     scale: 1.05,
     speed: 1000,
-    transition: true,
-    axis: null,
-    reset: true,
-    easing: "cubic-bezier(.03,.98,.52,.99)",
 };
 
 export function About() {

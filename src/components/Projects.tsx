@@ -4,7 +4,7 @@ import { portfolioData } from "@/data/portfolio";
 import { Github, ExternalLink } from "lucide-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { Tilt } from "react-tilt";
+import { Tilt } from "./Tilt";
 import { SectionReveal } from "./SectionReveal";
 
 const defaultTiltOptions = {
